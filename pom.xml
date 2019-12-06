@@ -12,8 +12,8 @@
 
     <modules>
         <module>core</module>
-        <module>redis</module>
         <module>demo</module>
+        <module>redis</module>
     </modules>
 
     <parent>
@@ -105,6 +105,15 @@
             <releases>
                 <enabled>true</enabled>
             </releases>
+        </repository>
+
+        <repository>
+            <id>strugglm-snapshot</id>
+            <url>https://raw.githubusercontent.com/JeasonHe/personnal_maven_repository/snapshot</url>
+        </repository>
+        <repository>
+            <id>strugglm-release</id>
+            <url>https://raw.githubusercontent.com/JeasonHe/personnal_maven_repository/release</url>
         </repository>
     </repositories>
     <pluginRepositories>
